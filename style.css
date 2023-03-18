@@ -13,83 +13,91 @@
     }
     /* General styles */
     body {
-    font-family: 'Roboto', sans-serif;
+    font-family:"Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 1.14;
-    color: var(--primary-text-color);
-    background-color: var(--primary-white-color);
+    color:  #434455;
+    background-color:  #FFFFFF;
     }
     ul{
     list-style: none;
     }
     .link {
-    text-decoration: none;
+   
     color: var(--primary-text-color);
     }
     /* Logo  */
+    .logo, .link {
+        font-family: "Raleway", sans-serif;
+      }
+      
     .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+        font-family: "Raleway", sans-serif;
+        text-decoration: none;
+    font-weight: 800;
     }
     .logo.primary{
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 18px;
+    line-height: 1.17;
     }
     .logo.secondary {
-    font-size: 22px;
-    line-height: 1.18;
-    color: var(--primary-white-color);
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4d5ae5;
     }
     .logo .logo-style {
-    color: var(--accent-color);
+    color: #2e2f42 ;
     }
     /* Website nav */
-    .nav {
+    .nav
+    < list-style: none>
+     {
     font-weight: 500;
     letter-spacing: 0.02em;
     }
     .nav .link:hover,
-    .nav .link:focus {
-        color: var(--accent-color);
+    .nav .link:focus {href="./index.html}
+        color: #404bbf;
     }
     .contacts-nav .link{    
-    color: var(--secondary-text-color);
+    color: #404bbf;
     }
     /* hero section */
     .hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    color: #2e2f42;
     background-color: black;
+    text-decoration: none
     }
     /* Button */
-    .button {
+    .button {./href="./Portfolio.html"
     font-size: 16px;
     text-decoration: none;
     }
-    .button.primary {
+    .button.primary {./href="./Portfolio.html"
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    color: var(--primary-white-color);
+    color: #434455;
     background-color: var(--accent-color);
     }
     .button.secondary {
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: #404bbf;
     background-color: var(--secondary-bg-color);
     }
     .button.secondary:hover,
     .button.secondary:focus {
-    color: var(--primary-white-color);
+    color:#404bbf;
     background-color: var(--accent-color);
     }
     /* Uppercase titles */
