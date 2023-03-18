@@ -1,189 +1,137 @@
-:root {
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --accent-color: #2196F3;
-    --primary-white-color: #ffffff;
-    --footer-text-color: rgba(255, 255, 255, 0.6);
-    --site-devs-text-color: rgba(255, 255, 255, 0.4);
-    --secondary-bg-color: #F5F4FA;
-    --work-title-bg: rgba(47, 48, 58, 0.8);
-    --footer-bg-color: #2F303A;
-    --clients-logos-bg: #AFB1B8;
-    --ftr-social-logos-bg: rgba(255, 255, 255, 0.1);
-    }
-    /* General styles */
-    body {
-    font-family:"Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    line-height: 1.14;
-    color:  #434455;
-    background-color:  #FFFFFF;
-    }
-    ul{
-    list-style: none;
-    }
-    .link {
-   
-    color: var(--primary-text-color);
-    }
-    /* Logo  */
-    .logo, .link {
-        font-family: "Raleway", sans-serif;
-      }
-      
-    .logo {
-        font-family: "Raleway", sans-serif;
-        text-decoration: none;
-    font-weight: 800;
-    }
-    .logo.primary{
-    font-size: 18px;
-    line-height: 1.17;
-    }
-    .logo.secondary {
-    font-size: 18px;
-    line-height: 1.17;
-    color: #4d5ae5;
-    }
-    .logo .logo-style {
-    color: #2e2f42 ;
-    }
-    /* Website nav */
-    .nav
-    < list-style: none>
-     {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    }
-    .nav .link:hover,
-    .nav .link:focus {href="./index.html}
-        color: #404bbf;
-    }
-    .contacts-nav .link{    
-    color: #404bbf;
-    }
-    /* hero section */
-    .hero-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #2e2f42;
-    background-color: black;
-    text-decoration: none
-    }
-    /* Button */
-    .button {./href="./Portfolio.html"
-    font-size: 16px;
-    text-decoration: none;
-    }
-    .button.primary {./href="./Portfolio.html"
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    color: #434455;
-    background-color: var(--accent-color);
-    }
-    .button.secondary {
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    color: #404bbf;
-    background-color: var(--secondary-bg-color);
-    }
-    .button.secondary:hover,
-    .button.secondary:focus {
-    color:#404bbf;
-    background-color: var(--accent-color);
-    }
-    /* Uppercase titles */
-    .uptitle {
-    font-size: inherit;
-    font-weight: 700;
-    text-transform: uppercase;
-    }
-    /* features */
-    .uptitle.features-title {
-    color: var(--primary-text-color);
-    }
-    .features-text {
-    line-height: 1.71;
-    color: var(--secondary-text-color);
-    }
-    /* General section title*/
-    .section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--primary-text-color);
-    }
-    /* Work section */
-    .uptitle.work-title {
-    color: var(--primary-white-color);
-    background: var(--work-title-bg);
-    }
-    /* Team section */
-    .team {
-    font-size: 16px;
-    line-height: 1.19;
-    }
-    .team .team-members-name {
-    font-size: inherit;
-    font-weight: 500;
-    color: var(--primary-text-color);
-    }
-    .team .team-members-position {
-    color: var(--secondary-text-color);
-    }
-    /* Clients section */
-    /* Footer */
-    .page-footer {
-    background: var(--footer-bg-color);
-    }
-    /* address */
-    .address .link{
+--button-background-color: #404bbf;
+  --color-logo-web:#4d5ae5;
+  --color-logo-studio:#2e2f42;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color:#434455;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/**-------------------Шаблони шрифтів-------------*/
+/*стилі лого*/
+.styles-logo{
+    font-family: 'Raleway',
+      sans-serif;
     font-style: normal;
-    line-height: 1.71;
-    color: var(--footer-text-color);
-    }
-    .address .link.address-location {
-    color: var(--primary-white-color);
-    }
-    /* Subscription */
-    .uptitle.signup-title {
-    color: var(--primary-white-color);
-    }
-    .site-devs {
-    font-size: 12px;
-    line-height: 2;
-    color: var(--site-devs-text-color);
-    }
-    /* Portfolio page */
-    .site-nav .link.current {
-        color: var(--accent-color);
-    }
-    .portfolio-sample {
-    font-weight: 700;
+    font-family: 'Raleway',sans-serif;  
+    font-weight: 800;
     font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--primary-text-color);
-    }
-    .portfolio-info {
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--secondary-text-color);
-    }
-    .portfolio-description {
-    font-size: 18px;
-    line-height: 1.56;
-    
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    }
-    
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    line-height: 1.17;     
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+@@ -55,8 +51,6 @@ body {
+
+/**--------------HEADER-------------*/
+
+.header-logo {}
+
+.header-logo-web {  
+  color:var(--color-logo-web,
+    #4d5ae5);
+}
+.header-logo-studio {
+  color:var(--color-logo-studio,
+    #2e2f42);
+}
+.header-address {
+  font-style: normal;
+}
+.header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-item:is(:hover, :focus) {
+  color: #404bbf;
+}
+.header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-mail:is(:hover, :focus) {
+  color: #404bbf;
+}
+/**----------------секція2----------------*/
+.vision {
+  background-color: #2e2f42;
+}
+.vision-titl {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+.vision-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.vision-btn:is(:hover, :focus) {
+  background-color:var(--button-background-color,#404bbf) ;
+}
+/**----------------секція3------------- */
+.benefits-titl {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-headings,#2e2f42);
+}
+/**------------------секція4--------------*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-titl {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-headings,#2e2f42)
+  ;
+}
+.team-item {
+  background-color: #ffffff;
+}
+/*.team-name {}*/
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**-----------FOOTER--------------*/
+.footer {
+  font-family: 'Raleway', sans-serif;
+  /*font-family: */
+  background-color: #2e2f42;
+}
