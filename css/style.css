@@ -13,7 +13,7 @@
     }
     /* General styles */
     body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', ;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -178,4 +178,3 @@
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     }
-    
