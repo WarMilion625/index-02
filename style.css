@@ -31,13 +31,13 @@
   .header-navigation {
   }
   
-  .header-logo {
+  {header-logo 
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     font-family: "Raleway", sans-serif;
-  
-    display: flex;
+  }
+    {display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
