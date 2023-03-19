@@ -45,7 +45,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: #2e2f42;
 }
 .header-link:hover {
 color: #404bbf;
@@ -92,7 +92,7 @@ align-items: center;
 letter-spacing: 0.04em;
 text-transform: uppercase;
 color: #FFFFFF;
-background: #4D5AE5;
+background: #4d5ae5;
 cursor: pointer;
 }
 .hero-btn:hover {
