@@ -69,7 +69,7 @@
     font-style: normal;
   }
   .contact {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -84,11 +84,11 @@
   .hero {
     background: var(--color-grey, #2e2f42);
   }
-  .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
+  { .hero-title 
+    font-weight 700;
+    font-size 56px;
+    line-height 1.07;
+    text-align center;
     letter-spacing: 0.02em;
     color: var(--color-white, #ffffff);
   }
